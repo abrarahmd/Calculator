@@ -1,4 +1,5 @@
 function calculate(input) {
+    let randomStringforFun = 'Welcome to my code'
     const operators = ["+", "%", "÷", "x", "-"];
     let foundOperator = false;
     let float = ".";
@@ -6,7 +7,7 @@ function calculate(input) {
     let operand2 = "";
     let operator = null;
     let answer = null;
-
+    
     for (let value of input) {
         if (operators.includes(value)) {
             console.log(value)
